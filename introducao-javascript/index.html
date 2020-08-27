@@ -16,6 +16,13 @@
 		<main>
 			<section class="container">
 				<h2>Meus pacientes</h2>
+				<label for="filtrar-tabela">Filtre:</label>
+				<input
+					type="text"
+					name="filtro"
+					id="filtrar-tabela"
+					placeholder="Digite o nome do paciente"
+				/>
 				<table>
 					<thead>
 						<tr>
@@ -26,13 +33,15 @@
 							<th>IMC</th>
 						</tr>
 					</thead>
-					<tbody id="tabela-pacientes">
+					<tbody>
 						<tr class="paciente">
-							<td class="info-nome">Paulo</td>
-							<td class="info-peso">100</td>
-							<td class="info-altura">2.00</td>
-							<td class="info-gordura">10</td>
-							<td class="info-imc">0</td>
+							<tbody id="tabela-pacientes">
+								<td class="info-nome">Paulo</td>
+								<td class="info-peso">100</td>
+								<td class="info-altura">2.00</td>
+								<td class="info-gordura">10</td>
+								<td class="info-imc">0</td>
+							</tbody>
 						</tr>
 
 						<tr class="paciente">
@@ -67,6 +76,12 @@
 						</tr>
 					</tbody>
 				</table>
+				<span id="erro-ajax" class="invisivel"
+					>Erro ao buscar os pacientes</span
+				>
+				<button id="buscar-pacientes" class="botao bto-principal">
+					Buscar Pacientes
+				</button>
 			</section>
 			<section class="container" id="form">
 				<h2 id="titulo-form">Adicionar novo paciente</h2>
@@ -120,5 +135,8 @@
 		</main>
 		<script src="js/imc.js"></script>
 		<script src="js/formulario.js"></script>
+		<script src="js/remove-paciente.js"></script>
+		<script src="js/filtro.js"></script>
+		<script src="js/buscar-pacientes.js"></script>
 	</body>
 </html>
