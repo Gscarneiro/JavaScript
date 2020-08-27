@@ -19,6 +19,7 @@ header h1 {
 	display: inline-block;
 	vertical-align: middle;
 }
+
 header h2 {
 	font-size: 2em;
 	display: inline-block;
@@ -139,4 +140,8 @@ button:disabled {
 
 #form {
 	padding-top: 1rem;
+}
+
+#mensagem-erro {
+	color: red;
 }
