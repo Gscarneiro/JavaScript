@@ -1,136 +1,135 @@
-* {
+*{
 	box-sizing: border-box;
-}
+ }
 
-body {
+body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 }
 
-header {
+header{
 	background-color: #333;
 	height: 3em;
-	color: #fff;
+	color: #FFF;
 	margin-bottom: 1em;
 }
 
-header h1 {
+header h1{
 	font-size: 2em;
-	display: inline-block;
-	vertical-align: middle;
+	display:inline-block;
+	vertical-align:	middle;
+}
+header h2{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
 }
 
-header h2 {
-	font-size: 2em;
-	display: inline-block;
-	vertical-align: middle;
-}
-
-header .container:before {
-	content: "";
-	display: inline-block;
+header .container:before{
+	content: '';
+	display:inline-block;
 	height: 100%;
-	vertical-align: middle;
+	vertical-align:	middle;
 }
 
-.container {
+.container{
 	width: 60%;
 	height: 100%;
 	margin: 0 auto;
 }
 
-section {
+section{
 	margin: 2em 0;
 	overflow: hidden;
 }
 
-section h2 {
+section h2{
 	font-size: 3em;
 	display: block;
-	padding-bottom: 0.5em;
+	padding-bottom: .5em;
 	border-bottom: 1px solid #ccc;
-	margin-bottom: 0.5em;
+	margin-bottom: .5em;
 }
 
-table {
+table{
 	width: 100%;
-	margin-bottom: 0.5em;
-	table-layout: fixed;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
 }
 
-td,
-th {
-	padding: 0.7em;
+td, th {
+	padding: .7em;
 	margin: 0;
 	border: 1px solid #ccc;
 	text-align: center;
 }
 
-th {
+th{
 	font-weight: bold;
-	background-color: #eee;
+	background-color: #EEE;
 }
 
-label {
+label{
 	color: #555;
 	display: block;
-	margin-bottom: 0.2em;
+	margin-bottom: .2em;
 }
 
-.campo {
+.campo{
 	margin: 0;
 	padding-bottom: 1em;
 	width: 100%;
 	border: 1px solid #ccc;
-	padding: 0.7em;
+	padding: .7em;
 	width: 100%;
 }
 
-.campo-medio {
+.campo-medio{
 	display: inline-block;
-	padding-right: 0.5em;
+	padding-right: .5em;
 }
 
-.grupo {
+.grupo{
 	width: 32%;
 	display: inline-block;
 	padding: 10px 0px;
 }
 
-button {
-	background-color: #0c8cd3;
+button{
+	padding: .5em 2em;
 	border: 0;
 	border-bottom: 3px solid;
-	border-color: #04324c;
-	border-radius: 1rem;
-	clear: both;
-	color: #fff;
-	cursor: pointer;
-	display: block;
 	font-size: 1.2em;
+	cursor: pointer;
 	margin: 0;
 	margin-top: -3px;
-	margin: 10px 0px;
-	padding: 0.5em 2em;
+	color: #fff;
+	background-color:#0c8cd3;
+	border-color: #04324c;
 	width: 20%;
+    display: block;
+    clear: both;
+    margin: 10px 0px;
+
 }
 
-button:active {
-	margin-top: 0px;
+button:active{
+	margin-top:0px;
 	border: 0;
 }
 
-button[disabled="disabled"],
-button:disabled {
-	background-color: gray;
+button[disabled=disabled], button:disabled {
+    background-color: gray;
 	border-color: darkgray;
+
 }
 
-.adicionar-paciente {
-	margin-top: 30px;
+.adicionar-paciente{
+    margin-top: 30px;
 }
 
-.campo-invalido {
+.campo-invalido{
 	border: 1px solid red;
 }
 
@@ -138,11 +137,7 @@ button:disabled {
 	background-color: lightcoral;
 }
 
-#form {
-	padding-top: 1rem;
-}
-
-#mensagem-erro {
+#mensagens-erro {
 	color: red;
 }
 
