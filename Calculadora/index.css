@@ -1,0 +1,16 @@
+body {
+	font-family: "Alata", sans-serif;
+	margin: auto;
+	width: 60%;
+}
+
+.teclado {
+	height: 600px;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.button {
+	padding: 5rem auto;
+}
