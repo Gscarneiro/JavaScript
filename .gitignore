@@ -1,2 +1,3 @@
-dist
-.vscode
+introducao-javascript/js/dist/
+.vscode/
+dist/
